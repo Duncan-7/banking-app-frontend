@@ -1,0 +1,42 @@
+.Button {
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px 24px;
+  margin: 10px 10px 10px 0px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* .Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.Success {
+  background-color: #4CAF50;
+}
+
+.Danger {
+  background-color: #f44336;
+}
+
+.Neutral {
+  background-color: #027BCE;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}

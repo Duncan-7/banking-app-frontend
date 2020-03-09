@@ -1,0 +1,10 @@
+.Container {
+  border-bottom: 1px solid #CBC9C9;
+  padding: 5px 0;
+}
+
+.Account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.NavBar {
+  height: 56px;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: #00487C;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.NavLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 120px;
+}
+
+
+@media (min-width: 600px) {
+  .NavLinks {
+    flex-flow: row;
+    margin-top: 0px;
+  }
+}

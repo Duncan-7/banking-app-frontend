@@ -1,0 +1,11 @@
+.Form {
+  margin: 20px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .Form {
+    width: 500px;
+  }
+}
